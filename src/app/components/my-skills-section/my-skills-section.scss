@@ -1,0 +1,63 @@
+.skills-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-description-wrapper {
+  height: 500px;
+  width: 480px;
+  p {
+    color: white;
+    font-family: poppins;
+  }
+  .another-skill {
+    font-size: 32px;
+  }
+  span {
+    color: rgba(151, 71, 255, 1);
+  }
+  .btn {
+    height: 60px;
+    width: 200px;
+    border-radius: 12px;
+    background-color: rgba(112, 230, 28, 1);
+    font-family: poppins;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.skills-headline-wrapper {
+  display: flex;
+  align-items: center;
+  img {
+    width: 300px;
+    height: 4px;
+    border-radius: 4px;
+  }
+  h2 {
+    color: white;
+    font-family: poppins;
+    font-size: 90px;
+  }
+}
+
+.skills-icons-section {
+  display: flex;
+  width: 500px;
+  height: 500px;
+}
+
+.skills-icons-wrapper {
+    padding-top: 40px;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 40px;
+  img {
+    height: 100px;
+    width: 100px;
+  }
+}
