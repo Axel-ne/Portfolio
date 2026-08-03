@@ -1,0 +1,41 @@
+.portfolio-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    width: 1200px;
+    text-align: start;
+    color: white;
+    font-family: poppins;
+  }
+}
+
+.portfolio-headdline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  h2 {
+    color: white;
+    margin-left: 90px;
+    font-family: poppins;
+    font-weight: bold;
+    font-size: 90px;
+  }
+  img {
+    width: 70px;
+    height: 5px;
+  }
+}
+
+.img-section {
+  display: flex;
+  column-gap: 50px;
+  height: 800px;
+  width: 1200px;
+  img {
+    width: 600px;
+    height: 600px;
+    border: 1px solid green;
+    border-radius: 10px;
+  }
+}
