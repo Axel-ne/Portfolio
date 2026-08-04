@@ -1,0 +1,120 @@
+.contact-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-headline{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+    h2{
+        font-family: poppins;
+        font-size: 90px;
+        color: white;
+    }
+    >img{
+        width: 500px;
+        height: 5px;
+        border-radius: 24px;
+    }
+}
+
+.contact-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-contant{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 150px;
+    h2{
+        color: white;
+        font-family: poppins;
+    }
+    p{
+        margin-left: 75px;
+        color: white;
+        font-family: poppins;
+        span{
+            font-weight: bold;
+        }
+    }
+}
+
+.contact-content-headline{
+    display: flex;
+    align-items: center;
+    >img{
+        width: 70px;
+        height: 5px;
+        border-radius: 24px;
+    }
+    h2{
+        font-size: 32px;
+    }
+}
+
+.input-section{
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .submit-btn-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .submit-btn{
+        width: 250px;
+        height: 50px;
+        border-radius: 8px;
+        background: rgba(182, 182, 182, 1);
+        color: rgba(255, 255, 255, 1);
+        font-family: poppins;
+        font-size: 20px;
+
+    }
+    input[type=text]{
+        width: 620px;
+        height: 50px;
+        background-color: rgba(20, 29, 47, 1);
+        border: 1px solid rgba(151, 71, 255, 1);
+        border-radius: 8px;
+        padding: 20px;
+        color: white;
+    }
+    input[type=email]{
+        width: 620px;
+        height: 50px;
+        background-color: rgba(20, 29, 47, 1);
+        border: 1px solid rgba(151, 71, 255, 1);
+        border-radius: 8px;
+        padding: 20px;
+        color: white;
+    }
+    textarea{
+        width: 620px;
+        height: 200px;
+        background-color: rgba(20, 29, 47, 1);
+        border: 1px solid rgba(151, 71, 255, 1);
+        border-radius: 8px;
+        padding: 20px;
+        color: white;
+    }
+
+}
+.input-content{
+        display: flex;
+
+        p{
+            color: white;
+            font-family: poppins;
+        }
+        span{
+            color: rgba(151, 71, 255, 1);
+        }
+    }
