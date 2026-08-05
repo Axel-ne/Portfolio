@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { Header } from './components/header/header';
 import { LandingSection } from './components/landing-section/landing-section';
 import { AboutMeSection } from './components/about-me-section/about-me-section';
@@ -7,10 +7,12 @@ import { MySkillsSection } from './components/my-skills-section/my-skills-sectio
 import { PortfolioSection } from './components/portfolio-section/portfolio-section';
 import { References } from './components/references/references';
 import { ContactSectionn } from './components/contact-sectionn/contact-sectionn';
+import { Footer } from './components/footer/footer';
+import { LegalNotice } from './components/legal-notice/legal-notice';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, LandingSection, AboutMeSection, MySkillsSection, PortfolioSection, References, ContactSectionn],
+  imports: [RouterLink, RouterOutlet, Header, LandingSection, AboutMeSection, MySkillsSection, PortfolioSection, References, ContactSectionn, Footer, LegalNotice],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

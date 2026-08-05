@@ -1,6 +1,11 @@
 .skills-section {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 150px;
+    background-image: url("/assets/img/Vector\ \(3\).png");
+  background-repeat: no-repeat;
+  background-position: contain;
+  background-size: cover;
 }
 
 .skills-description-wrapper {
