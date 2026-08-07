@@ -59,3 +59,9 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    a{
+        display: none;
+    }
+}
