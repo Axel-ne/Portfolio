@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
   p {
     width: 1200px;
     text-align: start;
@@ -10,9 +12,17 @@
   }
 }
 
+.portfolio-wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+max-width: 1440px;
+}
+
 .portfolio-headdline {
   display: flex;
   align-items: center;
+  max-width: 1440px;
   width: 100%;
   h2 {
     color: white;

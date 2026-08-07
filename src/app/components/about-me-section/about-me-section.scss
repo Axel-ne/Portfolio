@@ -1,7 +1,14 @@
 .about-me-section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 100%;
+}
 
+.about-me-wrapper{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
 }
 
 .about-me-description {

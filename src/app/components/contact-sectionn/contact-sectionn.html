@@ -1,4 +1,5 @@
-<section class="contact-section">
+<section id="" class="contact-section">
+    <div class="contact-wrapper">
     <div class="contact-headline">
         <h2>Contact</h2>
         <img src="/assets/icons/LINE 4.png" alt="">
@@ -6,29 +7,48 @@
     <div class="contact-content-wrapper">
         <div class="contact-contant">
             <div class="contact-content-headline">
-            <img src="/assets/icons/LINE 5.png" alt="">
-            <h2>Got a problem to solve?</h2>
+                <img src="/assets/icons/LINE 5.png" alt="">
+                <h2>Got a problem to solve?</h2>
             </div>
             <br>
-            <p>Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work.</p>
+            <p>Encourage people to contact you and describe what role you are interested in. Show that you will add
+                value to their projects through your work.</p>
             <br>
             <p>Need a Frontend developer? <span>Contact me!</span></p>
-    </div>
-        <div class="input-section">
-            <input type="text" placeholder="Your name" required>
-            <input type="email" placeholder="Your email" required>
-            <textarea name="" id="" placeholder="Your message" required></textarea>
+        </div>
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="input-section">
+            <input type="text" placeholder="Your name" formControlName="name">
+            @if (contactForm.get("name")?.touched && contactForm.get("name")?.hasError("required")) {
+            <p class="form-error">Bitte gib deinen Namen ein.</p>
+            }
+            @if (contactForm.get("name")?.touched && contactForm.get("name")?.hasError("minlength")) {
+            <p class="form-error">Der Name muss mindestens 3 Zeichen haben.</p>
+            }
+            <input type="email" placeholder="Your email" formControlName="email">
+            @if (contactForm.get("email")?.touched && contactForm.get("email")?.hasError("required")) {
+            <p class="form-error">Bitte gib deine E-Mail-Adresse ein.</p>
+            }
+            @if (contactForm.get("email")?.touched &&
+            contactForm.get("email")?.hasError("email")) {
+            <p class="form-error">Bitte gib eine gültige E-Mail-Adresse ein.</p>
+            }
+            <textarea placeholder="Your message" formControlName="message"></textarea>
+            @if (contactForm.get("message")?.touched &&
+            contactForm.get("message")?.hasError("required")) {
+            <p class="form-error">Bitte gib eine Nachricht ein.</p>
+            }
             <div class="input-content">
-            <input type="checkbox" name="" id="" required>
-            <p>I've read thes<span><a routerLink="privacy-policy">privacy policy</a></span>and agree to the processing of my data as outlined.</p> /////
+                <input type="checkbox" name="" id="" formControlName="privacy">
+                <p>I've read thes<span><a routerLink="privacy-policy">privacy policy</a></span>and agree to the
+                    processing of my data as outlined.</p>
             </div>
             <div class="submit-btn-wrapper">
-            <button class="submit-btn">Send message :)</button>
+                <button [disabled]="contactForm.invalid" type="submit" class="submit-btn">Send message :)</button>
             </div>
             <div class="go-up-btn-wrapper">
-            <a href=""><img class="go-up-btn" src="/assets/icons/4. Go up button.png" alt=""></a>
+                <a href="#hero"><img class="go-up-btn" src="/assets/icons/4. Go up button.png" alt=""></a>
             </div>
-        </div>
+        </form>
     </div>
-            <img src="" alt="">
+    </div>
 </section>

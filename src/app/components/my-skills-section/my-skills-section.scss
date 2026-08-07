@@ -8,6 +8,13 @@
   background-size: cover;
 }
 
+.skills-wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+}
+
 .skills-description-wrapper {
   height: 500px;
   width: 480px;
