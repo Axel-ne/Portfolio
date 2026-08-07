@@ -49,3 +49,15 @@ a{
     color: white;
     font-family: poppins;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+    footer{
+        padding: 0;
+    }
+    .footer-content-wrapper{
+        flex-direction: column;
+    }
+    .legal-notice-wrapper{
+        justify-content: center;
+    }
+}
