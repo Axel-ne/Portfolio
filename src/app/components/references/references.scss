@@ -13,11 +13,26 @@ margin-bottom: 150px;
     width: 50px;
     height: 50px;
 }
+        @media (min-width: 320px) and (max-width: 767px){
+            width: 100%;
+        }
+
 }
 
 .references-contant-wrapper {
 display: flex;
 max-width: 1440px;
+        @media (min-width: 320px) and (max-width: 767px){
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            width: 100%;
+            align-items: center;
+        }
+        @media (min-width: 768px) and (max-width: 1023px){
+            margin-top: 550px;
+            flex-direction: column-reverse;
+                        width: 750px;
+        }
 }
 .references-text-wrappeer {
     border: 5px solid rgba(151, 71, 255, 1);
@@ -42,6 +57,22 @@ max-width: 1440px;
             margin-bottom: 10px;
         }
     }
+            @media (min-width: 320px) and (max-width: 767px){
+            width: 300px;
+            height: 400px;
+            margin: 0;
+            padding: 0;
+            padding: 10px;
+            >div{
+            width: 300px;
+            img{
+                width: 50px;
+            }
+        }
+        }
+        @media (min-width: 768px) and (max-width: 1023px){
+            margin: 0;
+        }
     }
 
     .references-img-wrapper {
@@ -52,6 +83,22 @@ max-width: 1440px;
     .beam-img {
     width: 130px;
     height: 5px;
+        }
+                    @media (min-width: 320px) and (max-width: 767px){
+                        width: 100%;
+                        justify-content: center;
+                                    >img{
+                                        margin-bottom: 50px;
+                width: 250px;
+                height: 250px;
+            }
+            .beam-img{
+                width: 50px;
+            }
+                    }
+                                    @media (min-width: 768px) and (max-width: 1023px){
+            justify-content: center;
+            margin-bottom: 200px;
         }
     }
 
@@ -68,3 +115,24 @@ max-width: 1440px;
         height: 16px;
     }
 }
+
+        @media (min-width: 320px) and (max-width: 767px){
+            .text-img{
+                display: none;
+            }
+            .slider-wrapper{
+                margin: 0;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px){
+            .references-text-wrappeer{
+                width: 750px;
+            }
+                        .text-img{
+                display: none;
+            }
+                        .slider-wrapper{
+                margin: 0;
+            }
+        }

@@ -12,22 +12,48 @@
         justify-content: center;
         width: 100%;
         max-width: 1440px;
+                        @media (min-width: 768px) and (max-width: 1023px){
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     .hero-content-wrapper{
         display: flex;
         margin-bottom: 150px;
+        @media (min-width: 320px) and (max-width: 767px){
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
     }
     .hero-intro{
         color: white;
         font-family: Poppins;
         font-size: 64px;
+
+        @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 32px;
+        height: 40px;
+}
     }
     .hero-name{
         color: white;
         font-family: Poppins;
         font-size: 120px;
         font-weight: bold;
+        @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 20px;
+        width: 100%;
+}
+        @media (min-width: 768px) and (max-width: 1023px){
+                    font-size: 20px;
+        width: 100%;
+        }
+                @media (min-width: 768px) and (max-width: 1023px){
+            font-size: 60px;
+        }
     }
     .hero-job-title{
         display: flex;
@@ -35,6 +61,13 @@
         color: rgba(151, 71, 255, 1);
         font-family: poppins;
         font-size: 64px;
+        @media (min-width: 320px) and (max-width: 767px) {
+            font-size: 18px;
+}
+                @media (min-width: 768px) and (max-width: 1023px){
+                    justify-content: flex-start;
+            font-size: 50px;
+        }
     }
     .hero-btn{
         margin-top: 50px;
@@ -48,12 +81,26 @@
         border-radius: 10px;
         border: none;
         cursor: pointer;
+        @media (min-width: 320px) and (max-width: 767px){
+            margin: 0;
+            margin-top: 20px;
+        }
+                        @media (min-width: 768px) and (max-width: 1023px){
+            margin: 0;
+        }
     }
 }
 .rotate{
+    display: flex;
+    align-items: flex-end;
     width: 200px;
     height: 100px;
     transform: rotate(-90deg);
+    @media (min-width: 320px) and (max-width: 767px){
+        height: 80px;
+        width: 80px;
+        align-items: flex-start;
+    }
 }
 
 .socials-wrapper{
@@ -61,6 +108,12 @@
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 150px;
+    @media (min-width: 320px) and (max-width: 767px){
+        width: 150px;
+    }
+                    @media (min-width: 768px) and (max-width: 1023px){
+            width: 150px;
+        }
 }
 
 .socials-content{
@@ -68,12 +121,24 @@
     gap: 40px;
     width: 380px;
     height: 40px;
+                    @media (min-width: 768px) and (max-width: 1023px){
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
 }
 
 .socials-line{
     margin-right: 40px;
     height: 4px;
     width: 100px;
+            @media (min-width: 320px) and (max-width: 767px){
+                    margin-right: 20px;
+        }
+                        @media (min-width: 768px) and (max-width: 1023px){
+            width: 200px;
+        }
 }
 
 .social-icon{
@@ -98,10 +163,49 @@
         width: 35px;
         height: 35px;
     }
+            @media (min-width: 320px) and (max-width: 767px){
+                display: none;
+        }
+                        @media (min-width: 768px) and (max-width: 1023px){
+            display: none;
+        }
 }
 
 .socials-section{
     width: 100%;
     display: flex;
     justify-content: space-between;
+            @media (min-width: 320px) and (max-width: 767px){
+                height: 50px;
+                margin-top: 50px;
+        }
 }
+
+        @media (min-width: 320px) and (max-width: 767px){
+            .hero-section{
+                justify-content: flex-start;
+                height: 320px;
+            }
+            .hero-name-wrapper{
+                width: 100%;
+            }
+            .discription-wrapper{
+                display: flex;
+                flex-direction: column;
+            }
+            .hero-job-title-wrapper{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+                @media (min-width: 768px) and (max-width: 1023px){
+            .hero-job-title-wrapper{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+                align-items: center;
+            }
+        }

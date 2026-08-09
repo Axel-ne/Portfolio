@@ -11,6 +11,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media (min-width: 320px) and (max-width: 767px){
+        width: 320px;
+    }
 }
 
 .contact-headline{
@@ -29,6 +32,19 @@
         height: 5px;
         border-radius: 24px;
     }
+    @media (min-width: 320px) and (max-width: 767px){
+        h2{
+            font-size: 32px;
+        }
+        img{
+            width: 70px;
+        }
+    }
+                    @media (min-width: 768px) and (max-width: 1023px){
+                    img{
+            width: 180px;
+        }
+        }
 }
 
 .contact-content-wrapper{
@@ -36,6 +52,13 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
+    @media (min-width: 320px) and (max-width: 767px) {
+        flex-wrap: wrap;
+    }
+    @media (min-width: 768px) and (max-width: 1023px){
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .contact-contant{
@@ -55,6 +78,12 @@
             font-weight: bold;
         }
     }
+        @media (min-width: 320px) and (max-width: 767px){
+            p{
+                margin: 0;
+                padding: 20px;
+            }
+        }
 }
 
 .contact-content-headline{
@@ -68,6 +97,14 @@
     }
     h2{
         font-size: 32px;
+    }
+    @media (min-width: 320px) and (max-width: 767px){
+        h2{
+            font-size: 20px;
+        }
+        img{
+            width: 50px;
+        }
     }
 }
 
@@ -98,6 +135,9 @@
         border-radius: 8px;
         padding: 20px;
         color: white;
+                @media (min-width: 320px) and (max-width: 767px){
+            width: 300px;
+        }
     }
     input[type=email]{
         width: 620px;
@@ -107,6 +147,10 @@
         border-radius: 8px;
         padding: 20px;
         color: white;
+        @media (min-width: 320px) and (max-width: 767px){
+    width: 300px;
+
+}
     }
     textarea{
         width: 620px;
@@ -117,8 +161,17 @@
         padding: 20px;
         color: white;
         font-family: poppins;
+        @media (min-width: 320px) and (max-width: 767px){
+            width: 300px;
+        }
+        @media (min-width: 768px) and (max-width: 1023px){
+            width: 620px;
+        }
     }
-
+@media (min-width: 320px) and (max-width: 767px){
+    width: 320px;
+    margin: 0;
+}
 }
 .input-content{
         display: flex;
@@ -130,8 +183,6 @@
         span{
             color: rgba(151, 71, 255, 1);
         }
-        // input[type=checkbox]{
-        // }
     }
     .go-up-btn-wrapper{
         height: 150px;
@@ -155,3 +206,17 @@
     font-weight: bold;
     font-size: 24px;
 }
+
+    @media (min-width: 320px) and (max-width: 767px){
+        .input-section{
+            margin-top: 200px;
+            margin-left: 10px;
+        }
+    }
+
+                    @media (min-width: 768px) and (max-width: 1023px){
+                    .input-section{
+                        align-items: center;
+                        margin: 0;
+        }
+        }

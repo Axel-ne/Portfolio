@@ -9,6 +9,14 @@
     text-align: start;
     color: white;
     font-family: poppins;
+    @media (min-width: 320px) and (max-width: 767px){
+      width: 300px;
+      padding: 10px;
+    }
+            @media (min-width: 768px) and (max-width: 1023px){
+                  width: 600px;
+      padding: 10px;
+        }
   }
 }
 
@@ -35,6 +43,16 @@ max-width: 1440px;
     width: 70px;
     height: 5px;
   }
+          @media (min-width: 320px) and (max-width: 767px){
+            width: 100%;
+            justify-content: center;
+            h2{
+              font-size: 24px;
+            margin: 0;
+            margin-left: 20px;
+            }
+
+        }
 }
 
 .img-section {
@@ -48,4 +66,18 @@ max-width: 1440px;
     border: 1px solid green;
     border-radius: 10px;
   }
+          @media (min-width: 320px) and (max-width: 767px){
+            width: 320px;
+            flex-wrap: wrap;
+            justify-content: center;
+            img{
+              width: 300px;
+              height: 300px;
+            }
+        }
+                @media (min-width: 768px) and (max-width: 1023px){
+                        width: 750px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
 }

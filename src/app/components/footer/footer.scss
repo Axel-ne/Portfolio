@@ -60,4 +60,38 @@ a{
     .legal-notice-wrapper{
         justify-content: center;
     }
+    .social-icon-wrapper{
+        img{
+            margin-top: 20px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .legal-notice-wrapper{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    footer{
+        padding: 0;
+    }
+
+        .footer-content-wrapper{
+        flex-direction: column;
+    }
+    .legal-notice-wrapper{
+        justify-content: center;
+    }
+
+        .social-icon-wrapper{
+        img{
+            margin-top: 20px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .legal-notice-wrapper{
+        margin-top: 20px;
+    }
 }
