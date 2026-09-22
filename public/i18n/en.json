@@ -1,15 +1,15 @@
 {
-  "NAV": {
-    "ABOUT": "About me",
-    "SKILLS": "Skills",
-    "PORTFOLIO": "Portfolio"
-  },
-  "ABOUT": {
-    "TITLE": "About me",
-    "INTRO": "Hey there, I'm Simon! Here you can write some information about yourself, for example why you are passionate about IT and what inspires you to continuously improve your programming skills.",
-    "CONNECT": "Let's connect and create something amazing together!",
-    "LOCATION": "Where are you located? Are you open to different ways of working, such as working remotely or even relocating?",
-    "LEARNING": "Show that you are open-minded. Are you enthusiastic about learning new technologies and continually improving your skills?",
-    "PROBLEM_SOLVING": "Give a brief description of your problem-solving approach. Do you learn from each challenge as you search for the most efficient or elegant solution? You can include keywords such as analytical thinking, creativity, persistence and collaboration."
-  }
+    "NAV": {
+        "ABOUT": "About me",
+        "SKILLS": "Skills",
+        "PORTFOLIO": "Portfolio"
+    },
+    "ABOUT": {
+        "TITLE": "About me",
+        "INTRO": "Hey there, I'm Simon! Here you can write some information about yourself, for example why you are passionate about IT and what inspires you to continuously improve your programming skills.",
+        "CONNECT": "Let's connect and create something amazing together!",
+        "LOCATION": "Where are you located? Are you open to different ways of working, such as working remotely or even relocating?",
+        "LEARNING": "Show that you are open-minded. Are you enthusiastic about learning new technologies and continually improving your skills?",
+        "PROBLEM_SOLVING": "Give a brief description of your problem-solving approach. Do you learn from each challenge as you search for the most efficient or elegant solution? You can include keywords such as analytical thinking, creativity, persistence and collaboration."
+    }
 }
