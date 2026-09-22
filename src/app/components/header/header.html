@@ -3,16 +3,23 @@
         <div>
             <p>Axel</p>
         </div>
+
         <nav>
-<a href="#about-me">{{ 'NAV.ABOUT' | translate }}</a>
+            <a href="#about-me">{{ 'NAV.ABOUT' | translate }}</a>
+            <a href="#my-skills-section">{{ 'NAV.SKILLS' | translate }}</a>
+            <a href="#portfolio">{{ 'NAV.PORTFOLIO' | translate }}</a>
 
-<a href="#my-skills-section">{{ 'NAV.SKILLS' | translate }}</a>
-
-<a href="#portfolio">{{ 'NAV.PORTFOLIO' | translate }}</a>
-            <button class="primery-btn" (click)="changeLanguage('de')">
+            <button
+                [class.primery-btn]="currentLanguage === 'de'"
+                [class.secondary-btn]="currentLanguage !== 'de'"
+                (click)="changeLanguage('de')">
                 DE
             </button>
-            <button class="secondary-btn" (click)="changeLanguage('en')">
+
+            <button
+                [class.primery-btn]="currentLanguage === 'en'"
+                [class.secondary-btn]="currentLanguage !== 'en'"
+                (click)="changeLanguage('en')">
                 EN
             </button>
         </nav>
