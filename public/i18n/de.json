@@ -19,5 +19,9 @@
     "ANOTHER_SKILL_HIGHLIGHT": "einer weiteren Fähigkeit",
     "LEARNING": "Zeige deine Begeisterung dafür, neue Technologien und Frameworks zu lernen.",
     "BUTTON": "Kontakt aufnehmen"
+  },
+  "PORTFOLIO": {
+    "TITLE": "Portfolio",
+    "DESCRIPTION": "Entdecke hier eine Auswahl meiner Arbeiten – interagiere mit den Projekten und sieh meine Fähigkeiten in Aktion."
   }
 }

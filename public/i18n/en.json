@@ -19,5 +19,9 @@
     "ANOTHER_SKILL_HIGHLIGHT": "another skill",
     "LEARNING": "Show your enthusiasm for learning new technologies and frameworks.",
     "BUTTON": "Get in touch"
-  }
+  },
+  "PORTFOLIO": {
+  "TITLE": "Portfolio",
+  "DESCRIPTION": "Explore a selection of my work here - interact with the projects to see my skills in action."
+}
 }
