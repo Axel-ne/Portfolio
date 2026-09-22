@@ -27,5 +27,30 @@
 "REFERENCES": {
   "TEXT": "Michael really kept the team together with his great organization and clear communication. We wouldn't have got this far without his commitment.",
   "AUTHOR": "V. Schuster - Team Partner"
+},
+"CONTACT": {
+  "TITLE": "Contact",
+  "HEADLINE": "Got a problem to solve?",
+  "DESCRIPTION": "Encourage people to contact you and describe what role you are interested in. Show that you will add value to their projects through your work.",
+  "FRONTEND": "Need a Frontend developer?",
+  "CONTACT_ME": "Contact me!",
+
+  "NAME_PLACEHOLDER": "Your name",
+  "EMAIL_PLACEHOLDER": "Your email",
+  "MESSAGE_PLACEHOLDER": "Your message",
+
+  "NAME_REQUIRED": "Please enter your name.",
+  "NAME_MINLENGTH": "Your name must be at least 3 characters long.",
+
+  "EMAIL_REQUIRED": "Please enter your email address.",
+  "EMAIL_INVALID": "Please enter a valid email address.",
+
+  "MESSAGE_REQUIRED": "Please enter a message.",
+
+  "PRIVACY_TEXT": "I've read the",
+  "PRIVACY_LINK": "privacy policy",
+  "PRIVACY_AGREEMENT": "and agree to the processing of my data as outlined.",
+
+  "SUBMIT": "Send message :)"
 }
 }
