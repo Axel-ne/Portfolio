@@ -23,5 +23,9 @@
   "PORTFOLIO": {
     "TITLE": "Portfolio",
     "DESCRIPTION": "Entdecke hier eine Auswahl meiner Arbeiten – interagiere mit den Projekten und sieh meine Fähigkeiten in Aktion."
-  }
+  },
+  "REFERENCES": {
+  "TEXT": "Michael hat das Team mit seiner großartigen Organisation und klaren Kommunikation wirklich zusammengehalten. Ohne sein Engagement wären wir nicht so weit gekommen.",
+  "AUTHOR": "V. Schuster - Team Partner"
+}
 }
