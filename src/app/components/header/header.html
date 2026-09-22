@@ -1,14 +1,20 @@
 <header>
     <div class="header-content-wrapper">
-    <div>
-        <p>Axel</p>
-    </div>
-    <nav>
-        <a href="#about-me">About me</a>
-        <a href="#my-skills-section">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <button class="primery-btn">DE</button>
-        <button class="secondary-btn">EN</button>
-    </nav>
+        <div>
+            <p>Axel</p>
+        </div>
+        <nav>
+<a href="#about-me">{{ 'NAV.ABOUT' | translate }}</a>
+
+<a href="#my-skills-section">{{ 'NAV.SKILLS' | translate }}</a>
+
+<a href="#portfolio">{{ 'NAV.PORTFOLIO' | translate }}</a>
+            <button class="primery-btn" (click)="changeLanguage('de')">
+                DE
+            </button>
+            <button class="secondary-btn" (click)="changeLanguage('en')">
+                EN
+            </button>
+        </nav>
     </div>
 </header>
