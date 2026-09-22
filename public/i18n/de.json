@@ -1,15 +1,23 @@
 {
-  "NAV": {
-    "ABOUT": "Über mich",
-    "SKILLS": "Fähigkeiten",
-    "PORTFOLIO": "Portfolio"
-  },
-   "ABOUT": {
-    "TITLE": "Über mich",
-    "INTRO": "Hey, ich bin Simon! Hier kannst du etwas über dich erzählen, zum Beispiel warum du dich für die IT begeisterst und was dich dazu inspiriert, deine Programmierkenntnisse ständig weiterzuentwickeln.",
-    "CONNECT": "Lass uns vernetzen und gemeinsam etwas Großartiges erschaffen!",
-    "LOCATION": "Wo bist du ansässig? Bist du offen für verschiedene Arbeitsmodelle, wie zum Beispiel Remote-Arbeit oder sogar einen Umzug?",
-    "LEARNING": "Zeige, dass du aufgeschlossen bist. Begeisterst du dich dafür, neue Technologien zu lernen und deine Fähigkeiten kontinuierlich zu verbessern?",
-    "PROBLEM_SOLVING": "Beschreibe kurz deinen Ansatz bei der Problemlösung. Lernst du aus jeder Herausforderung, während du nach der effizientesten oder elegantesten Lösung suchst? Du kannst Begriffe wie analytisches Denken, Kreativität, Ausdauer und Zusammenarbeit verwenden."
+    "NAV": {
+        "ABOUT": "Über mich",
+        "SKILLS": "Fähigkeiten",
+        "PORTFOLIO": "Portfolio"
+    },
+    "ABOUT": {
+        "TITLE": "Über mich",
+        "INTRO": "Hey, ich bin Simon! Hier kannst du etwas über dich erzählen, zum Beispiel warum du dich für die IT begeisterst und was dich dazu inspiriert, deine Programmierkenntnisse ständig weiterzuentwickeln.",
+        "CONNECT": "Lass uns vernetzen und gemeinsam etwas Großartiges erschaffen!",
+        "LOCATION": "Wo bist du ansässig? Bist du offen für verschiedene Arbeitsmodelle, wie zum Beispiel Remote-Arbeit oder sogar einen Umzug?",
+        "LEARNING": "Zeige, dass du aufgeschlossen bist. Begeisterst du dich dafür, neue Technologien zu lernen und deine Fähigkeiten kontinuierlich zu verbessern?",
+        "PROBLEM_SOLVING": "Beschreibe kurz deinen Ansatz bei der Problemlösung. Lernst du aus jeder Herausforderung, während du nach der effizientesten oder elegantesten Lösung suchst? Du kannst Begriffe wie analytisches Denken, Kreativität, Ausdauer und Zusammenarbeit verwenden."
+    },
+    "SKILLS": {
+    "TITLE": "Fähigkeiten",
+    "DESCRIPTION": "Hebe deine Erfahrung mit verschiedenen Projekten und unterschiedlichen Frontend-Technologien wie HTML, CSS und JavaScript hervor und betone deine Offenheit, neue Technologien zu lernen und dich an sie anzupassen. Erwähne außerdem die Bedeutung kontinuierlicher Weiterbildung, um mit den schnellen Veränderungen in der Webentwicklung Schritt zu halten.",
+    "ANOTHER_SKILL": "Du suchst nach",
+    "ANOTHER_SKILL_HIGHLIGHT": "einer weiteren Fähigkeit",
+    "LEARNING": "Zeige deine Begeisterung dafür, neue Technologien und Frameworks zu lernen.",
+    "BUTTON": "Kontakt aufnehmen"
   }
 }
