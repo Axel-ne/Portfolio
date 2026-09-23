@@ -3,8 +3,8 @@
         <section class="hero-content-section">
             <div class="hero-content-wrapper">
                 <div class="rotate">
-                    <p class="hero-intro">
-                        {{ 'HERO.INTRO' | translate }}
+                    <p class="hero-intro"[class.german-text]="isGerman">
+                        {{ 'HERO.INTRO'| translate }}
                     </p>
                 </div>
                 <div class="discription-wrapper">
@@ -17,7 +17,7 @@
                         <p class="hero-job-title">
                             {{ 'HERO.JOB_TITLE' | translate }}
                         </p>
-                        <button class="hero-btn">
+                        <button class="hero-btn"[class.german-btn]="isGerman">
                             {{ 'HERO.BUTTON' | translate }}
                         </button>
                     </div>
@@ -43,7 +43,7 @@
             </div>
             <div class="scroll-icon-wrapper">
                 <p>
-                    {{ 'HERO.SCROLL_DOWN' | translate }}
+                    Scroll down
                 </p>
                 <img class="arrow" src="\assets\icons\arrow-down-line.png" alt="">
             </div>

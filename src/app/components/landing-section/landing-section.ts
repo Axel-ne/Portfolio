@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { TranslatePipe } from '@ngx-translate/core';
+import { Component, inject } from '@angular/core';
+import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-landing-section',
@@ -7,4 +7,9 @@ import { TranslatePipe } from '@ngx-translate/core';
   templateUrl: './landing-section.html',
   styleUrl: './landing-section.scss',
 })
-export class LandingSection {}
+export class LandingSection {
+  translate = inject(TranslateService);
+  get isGerman(): boolean {
+    return this.translate.currentLang() === 'de';
+  }
+}

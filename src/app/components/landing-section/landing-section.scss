@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
 
+
+
     .hero-wrapper{
         display: flex;
         flex-direction: column;
@@ -28,16 +30,7 @@
             width: 100%;
         }
     }
-    .hero-intro{
-        color: white;
-        font-family: Poppins;
-        font-size: 64px;
 
-        @media (min-width: 320px) and (max-width: 767px) {
-        font-size: 32px;
-        height: 40px;
-}
-    }
     .hero-name{
         color: white;
         font-family: Poppins;
@@ -81,6 +74,11 @@
         border-radius: 10px;
         border: none;
         cursor: pointer;
+
+        &.german-btn {
+        width: 250px; 
+    }
+
         @media (min-width: 320px) and (max-width: 767px){
             margin: 0;
             margin-top: 20px;
@@ -90,6 +88,21 @@
         }
     }
 }
+    .hero-intro{
+        color: white;
+        font-family: Poppins;
+        font-size: 64px;
+
+            &.german-text{
+        font-size: 60px;
+    }
+
+        @media (min-width: 320px) and (max-width: 767px) {
+        font-size: 32px;
+        height: 40px;
+}
+    }
+
 .rotate{
     display: flex;
     align-items: flex-end;
