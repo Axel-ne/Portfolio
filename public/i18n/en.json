@@ -52,5 +52,11 @@
   "PRIVACY_AGREEMENT": "and agree to the processing of my data as outlined.",
 
   "SUBMIT": "Send message :)"
+},
+"HERO": {
+  "INTRO": "I am",
+  "JOB_TITLE": "FRONTEND DEVELOPER",
+  "BUTTON": "Let's talk!",
+  "SCROLL_DOWN": "Scroll down"
 }
 }

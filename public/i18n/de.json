@@ -52,5 +52,11 @@
   "PRIVACY_AGREEMENT": "gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
 
   "SUBMIT": "Nachricht senden :)"
+},
+"HERO": {
+  "INTRO": "Ich bin",
+  "JOB_TITLE": "FRONTEND-ENTWICKLER",
+  "BUTTON": "Lass uns reden!",
+  "SCROLL_DOWN": "Nach unten scrollen"
 }
 }
